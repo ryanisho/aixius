@@ -233,55 +233,43 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 			<ul class="formlist" id="986118348303954228-form-list">
 				<h2 class="wsite-content-title"><u><strong><font color="#d5d5d5">THE FORM</font></strong></u></h2>
 
-<label class="wsite-form-label wsite-form-fields-required-label"><span class="form-required">*</span> Indicates required field</label><div><div class="wsite-form-field wsite-name-field" style="margin:5px 0px 5px 0px;">
-				<label class="wsite-form-label">Name <span class="form-required">*</span></label>
-				<div style="clear:both;"></div>
-				<div class="wsite-form-input-container wsite-form-left wsite-form-input-first-name">
-					<input aria-required="true" id="input-974897926496949995" class="wsite-form-input wsite-input" placeholder="First" type="text" name="_u974897926496949995[first]" />
-					<label class="wsite-form-sublabel" for="input-974897926496949995">First</label>
-				</div>
-				<div class="wsite-form-input-container wsite-form-right wsite-form-input-last-name">
-					<input aria-required="true" id="input-974897926496949995-1" class="wsite-form-input wsite-input" placeholder="Last" type="text" name="_u974897926496949995[last]" />
-					<label class="wsite-form-sublabel" for="input-974897926496949995-1">Last</label>
-				</div>
-				<div id="instructions-974897926496949995" class="wsite-form-instructions" style="display:none;"></div>
-			</div>
-			<div style="clear:both;"></div></div>
-
-<div><div class="wsite-form-field wsite-phone-field" style="margin-top:5px;">
-				<label class="wsite-form-label" for="input-683102113253730155">PHONE NUMBER <span class="form-required">*</span></label>
-				<div style="clear:both;"></div>
-				<div class="wsite-form-input-container wsite-form-left" style="margin-bottom:5px;">
-					<input aria-required="true" id="input-683102113253730155" class="wsite-form-input wsite-input" type="text" name="_u683102113253730155[number]" />
-				</div>
-				<div id="instructions-683102113253730155" class="wsite-form-instructions" style="display:none;"></div>
-			</div>
-			<div style="clear:both;"></div></div>
-
-<div><div class="wsite-form-field" style="margin:5px 0px 5px 0px;">
-				<label class="wsite-form-label" for="input-221577062581891733">E-MAIL <span class="form-required">*</span></label>
-				<div class="wsite-form-input-container">
-					<input aria-required="true" id="input-221577062581891733" class="wsite-form-input wsite-input wsite-input-width-370px" type="text" name="_u221577062581891733" />
-				</div>
-				<div id="instructions-221577062581891733" class="wsite-form-instructions" style="display:none;"></div>
-			</div></div>
-
-<div><div class="wsite-form-field" style="margin:5px 0px 5px 0px;">
-				<label class="wsite-form-label" for="input-235058199492689940">DEVICE MODEL <span class="form-required">*</span></label>
-				<div class="wsite-form-input-container">
-					<textarea aria-required="true" id="input-235058199492689940" class="wsite-form-input wsite-input wsite-input-width-285px" name="_u235058199492689940" style="height: 50px"></textarea>
-				</div>
-				<div id="instructions-235058199492689940" class="wsite-form-instructions" style="display:none;">Please include color, brand and issue</div>
-			</div></div>
-
-<div><div class="wsite-form-field" style="margin:5px 0px 5px 0px;">
-				<label class="wsite-form-label" for="input-418942050339640478">DESCRIBE THE PROBLEM THROUGHLY <span class="form-required">*</span></label>
-				<div class="wsite-form-input-container">
-					<textarea aria-required="true" id="input-418942050339640478" class="wsite-form-input wsite-input wsite-input-width-370px" name="_u418942050339640478" style="height: 200px"></textarea>
-				</div>
-				<div id="instructions-418942050339640478" class="wsite-form-instructions" style="display:none;">Provide ALL context leading up to the problem and what caused the problem to persist. ANY information provided is helpful.</div>
-			</div></div>
-			</ul>
+  <!-- Form Started -->
+            <div class="container form-top">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                        <div class="panel panel-danger">
+                            <div class="panel-body">
+                                <form id="reused_form">
+                                    <div class="form-group">
+                                        <label><i class="fa fa-user" aria-hidden="true"></i> Name</label>
+                                        <input type="text" name="name" class="form-control" placeholder="Enter Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
+                                        <input type="email" name="email" class="form-control" placeholder="Enter Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label><i class="fa fa-comment" aria-hidden="true"></i> Message</label>
+                                        <textarea rows="3" name="message" class="form-control" placeholder="Type Your Message"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <button class="btn btn-raised btn-block btn-danger">Post &rarr;</button>
+                                    </div>
+                                </form>
+                                <div id="error_message" style="width:100%; height:100%; display:none; ">
+                                    <h4>
+                                        Error
+                                    </h4>
+                                    Sorry there was an error sending your form.
+                                </div>
+                                <div id="success_message" style="width:100%; height:100%; display:none; ">
+<h2>Success! Your Message was Sent Successfully.</h2>
+</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 			
 		</div>
 		<div style="display:none; visibility:hidden;">
