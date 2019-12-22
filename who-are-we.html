@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Who are we? - AIXIUS</title>
+    <head>
+        <title>Who are we? - AIXIUS</title>
 
 
 <meta https-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-
-		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="https://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
+        
+        <link id="wsite-base-style" rel="stylesheet" type="text/css" href="https://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
 <link rel="stylesheet" type="text/css" href="https://cdn2.editmysite.com/css/old/fancybox.css?1234" />
 <link rel="stylesheet" type="text/css" href="https://cdn2.editmysite.com/css/social-icons.css?buildtime=1234" media="screen,projection" />
 <link rel="stylesheet" type="text/css" href="files/main_style.css?1576979793" title="wsite-theme-css" />
@@ -76,7 +76,7 @@
 .wsite-background {background-image: url("/uploads/6/4/4/1/64415223/background-images/1366250879.jpg") !important;background-repeat: no-repeat !important;background-position: 50.00% 56.12% !important;background-size: 100% !important;background-color: transparent !important;}
 body.wsite-background {background-attachment: fixed !important;}.wsite-background.wsite-custom-background{ background-size: cover !important}
 </style>
-		<script>
+        <script>
 var STATIC_BASE = '//cdn1.editmysite.com/';
 var ASSETS_BASE = '//cdn2.editmysite.com/';
 var STYLE_PREFIX = 'wsite';
@@ -85,104 +85,107 @@ var STYLE_PREFIX = 'wsite';
 
 <script type="text/javascript" src="https://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script>
 <script src="https://cdn2.editmysite.com/js/site/main.js?buildTime=1234"></script><script type="text/javascript">
-		function initCustomerAccountsModels() {
-					(function(){_W.setup_rpc({"url":"\/ajax\/api\/JsonRPC\/CustomerAccounts\/","actions":{"CustomerAccounts":[{"name":"login","len":2,"multiple":false,"standalone":false},{"name":"logout","len":0,"multiple":false,"standalone":false},{"name":"getSessionDetails","len":0,"multiple":false,"standalone":false},{"name":"getAccountDetails","len":0,"multiple":false,"standalone":false},{"name":"getOrders","len":0,"multiple":false,"standalone":false},{"name":"register","len":4,"multiple":false,"standalone":false},{"name":"emailExists","len":1,"multiple":false,"standalone":false},{"name":"passwordReset","len":1,"multiple":false,"standalone":false},{"name":"passwordUpdate","len":3,"multiple":false,"standalone":false},{"name":"validateSession","len":1,"multiple":false,"standalone":false}]},"namespace":"_W.CustomerAccounts.RPC"});
+        function initCustomerAccountsModels() {
+                    (function(){_W.setup_rpc({"url":"\/ajax\/api\/JsonRPC\/CustomerAccounts\/","actions":{"CustomerAccounts":[{"name":"login","len":2,"multiple":false,"standalone":false},{"name":"logout","len":0,"multiple":false,"standalone":false},{"name":"getSessionDetails","len":0,"multiple":false,"standalone":false},{"name":"getAccountDetails","len":0,"multiple":false,"standalone":false},{"name":"getOrders","len":0,"multiple":false,"standalone":false},{"name":"register","len":4,"multiple":false,"standalone":false},{"name":"emailExists","len":1,"multiple":false,"standalone":false},{"name":"passwordReset","len":1,"multiple":false,"standalone":false},{"name":"passwordUpdate","len":3,"multiple":false,"standalone":false},{"name":"validateSession","len":1,"multiple":false,"standalone":false}]},"namespace":"_W.CustomerAccounts.RPC"});
 _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":"_W.CustomerAccounts.BackboneModelData","collection_namespace":"_W.CustomerAccounts.BackboneCollectionData","bootstrap_namespace":"_W.CustomerAccounts.BackboneBootstrap","models":{"CustomerAccounts":{"_class":"CustomerAccounts.Model.CustomerAccounts","defaults":null,"validation":null,"types":null,"idAttribute":null,"keydefs":null}},"collections":{"CustomerAccounts":{"_class":"CustomerAccounts.Collection.CustomerAccounts"}},"bootstrap":[]});
 })();
-		}
-		if(document.createEvent && document.addEventListener) {
-			var initEvt = document.createEvent('Event');
-			initEvt.initEvent('customerAccountsModelsInitialized', true, false);
-			document.dispatchEvent(initEvt);
-		} else if(document.documentElement.initCustomerAccountsModels === 0){
-			document.documentElement.initCustomerAccountsModels++
-		}
-		</script>
-		<script type="text/javascript"> _W = _W || {}; _W.securePrefix='UNSET'; </script><script>_W = _W || {};
-			_W.customerLocale = "en_US";
-			_W.storeName = null;
-			_W.storeCountry = "US";
-			_W.storeCurrency = "USD";
-			_W.storeEuPrivacyPolicyUrl = "";
-			com_currentSite = "658921741258284276";
-
-	function initFlyouts(){
-		initPublishedFlyoutMenus(
-			[{"id":"630255606343551380","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"794635311847983957","title":"Shop","url":"shop.html","target":"","nav_menu":false,"nonclickable":false},{"id":"722715650184663098","title":"Who are we?","url":"who-are-we.html","target":"","nav_menu":false,"nonclickable":false}],
-			"722715650184663098",
-			'',
-			'active',
-			false,
-			{"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required=\"{{.}}\"\n\t\t{{\/membership_required}}\n\t\tclass=\"wsite-menu-item\"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
-			{}
-		)
-	}
+        }
+        if(document.createEvent && document.addEventListener) {
+            var initEvt = document.createEvent('Event');
+            initEvt.initEvent('customerAccountsModelsInitialized', true, false);
+            document.dispatchEvent(initEvt);
+        } else if(document.documentElement.initCustomerAccountsModels === 0){
+            document.documentElement.initCustomerAccountsModels++
+        }
+        </script>
+        <script type="text/javascript"> _W = _W || {}; _W.securePrefix='UNSET'; </script><script>_W = _W || {};
+            _W.customerLocale = "en_US";
+            _W.storeName = null;
+            _W.storeCountry = "US";
+            _W.storeCurrency = "USD";
+            _W.storeEuPrivacyPolicyUrl = "";
+            com_currentSite = "658921741258284276";
+            com_userID = "64415223";</script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
+<script type="text/javascript" src="https://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script><script> _W.themePlugins = [];</script><script type="text/javascript"> _W.recaptchaUrl = "https://www.google.com/recaptcha/api.js"; </script><script type="text/javascript"><!--
+    var IS_ARCHIVE = 1;
+    
+    function initFlyouts(){
+        initPublishedFlyoutMenus(
+            [{"id":"630255606343551380","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"794635311847983957","title":"Shop","url":"shop.html","target":"","nav_menu":false,"nonclickable":false},{"id":"722715650184663098","title":"Who are we?","url":"who-are-we.html","target":"","nav_menu":false,"nonclickable":false}],
+            "722715650184663098",
+            '',
+            'active',
+            false,
+            {"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required=\"{{.}}\"\n\t\t{{\/membership_required}}\n\t\tclass=\"wsite-menu-item\"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
+            {}
+        )
+    }
 //-->
 </script>
+        
+        
+    </head>
+    <body class="no-header  wsite-page-who-are-we  full-width-on  wsite-theme-light"><div class="body-wrap">
 
+    <div id="header">
+        <div class="nav-trigger hamburger">
+            <div class="open-btn">
+                <span class="mobile"></span>
+                <span class="mobile"></span>
+                <span class="mobile"></span>
+            </div>
+        </div>
+        <div id="sitename"><span class="wsite-logo">
 
-	</head>
-	<body class="no-header  wsite-page-who-are-we  full-width-on  wsite-theme-light"><div class="body-wrap">
-
-	<div id="header">
-		<div class="nav-trigger hamburger">
-			<div class="open-btn">
-				<span class="mobile"></span>
-				<span class="mobile"></span>
-				<span class="mobile"></span>
-			</div>
-		</div>
-		<div id="sitename"><span class="wsite-logo">
-
-	<a href="">
-
-	<span id="wsite-title">AIXIUS</span>
-
-	</a>
+    <a href="">
+    
+    <span id="wsite-title">AIXIUS</span>
+    
+    </a>
 
 </span></div>
-	</div>
+    </div>
 
-	<div id="wrapper">
-		<div class="bg-wrapper">
-			<div id="navigation"><ul class="wsite-menu-default">
-		<li id="pg630255606343551380" class="wsite-menu-item-wrap">
-			<a
-						href="index.html"
-				class="wsite-menu-item"
-				>
-				Home
-			</a>
-
-		</li>
-		<li id="pg794635311847983957" class="wsite-menu-item-wrap">
-			<a
-						href="shop.html"
-				class="wsite-menu-item"
-				>
-				Shop
-			</a>
-
-		</li>
-		<li id="active" class="wsite-menu-item-wrap">
-			<a
-						href="who-are-we.html"
-				class="wsite-menu-item"
-				>
-				Who are we?
-			</a>
-
-		</li>
+    <div id="wrapper">
+        <div class="bg-wrapper">
+            <div id="navigation"><ul class="wsite-menu-default">
+        <li id="pg630255606343551380" class="wsite-menu-item-wrap">
+            <a
+                        href="index.html"
+                class="wsite-menu-item"
+                >
+                Home
+            </a>
+            
+        </li>
+        <li id="pg794635311847983957" class="wsite-menu-item-wrap">
+            <a
+                        href="shop.html"
+                class="wsite-menu-item"
+                >
+                Shop
+            </a>
+            
+        </li>
+        <li id="active" class="wsite-menu-item-wrap">
+            <a
+                        href="who-are-we.html"
+                class="wsite-menu-item"
+                >
+                Who are we?
+            </a>
+            
+        </li>
 </ul>
 </div>
-			<div id="content-wrapper">
-				<div id="wsite-content" class="wsite-elements wsite-not-footer">
-	<div class="wsite-section-wrap">
-	<div class="wsite-section wsite-body-section wsite-section-bg-color wsite-section-effect-reveal wsite-background-17 wsite-custom-background" style="height: auto;background-color: #fff;background-image: none;" >
-		<div class="wsite-section-content">
-					<div class="container">
-			<div class="wsite-section-elements">
-				<div class="wsite-spacer" style="height:37px;"></div>
+            <div id="content-wrapper">
+                <div id="wsite-content" class="wsite-elements wsite-not-footer">
+    <div class="wsite-section-wrap">
+    <div class="wsite-section wsite-body-section wsite-section-bg-color wsite-section-effect-reveal wsite-background-17 wsite-custom-background" style="height: auto;background-color: #fff;background-image: none;" >
+        <div class="wsite-section-content">
+                    <div class="container">
+            <div class="wsite-section-elements">
+                <div class="wsite-spacer" style="height:37px;"></div>
 
 <h2 class="wsite-content-title" style="text-align:center;"><strong><font size="6">Meet Our Team.</font></strong></h2>
 
@@ -195,12 +198,12 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 <div class="wsite-spacer" style="height:10px;"></div>
 
 <div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-	<table class="wsite-multicol-table">
-		<tbody class="wsite-multicol-tbody">
-			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:49.999999999999%; padding:0 15px;">
-
-
+    <table class="wsite-multicol-table">
+        <tbody class="wsite-multicol-tbody">
+            <tr class="wsite-multicol-tr">
+                <td class="wsite-multicol-col" style="width:49.999999999999%; padding:0 15px;">
+                    
+                        
 
 <h2 class="wsite-content-title" style="text-align:center;"><strong><font size="5">RYAN HO.</font></strong></h2>
 
@@ -218,10 +221,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 <div style="height:0px;overflow:hidden"></div></div>
 
 
-
-				</td>				<td class="wsite-multicol-col" style="width:49.999999999999%; padding:0 15px;">
-
-
+                    
+                </td>                <td class="wsite-multicol-col" style="width:49.999999999999%; padding:0 15px;">
+                    
+                        
 
 <h2 class="wsite-content-title" style="text-align:center;"><strong>SHAOXUAN ZHUANG.</strong></h2>
 
@@ -239,67 +242,67 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 <div style="height:10px;overflow:hidden"></div></div>
 
 
-
-				</td>			</tr>
-		</tbody>
-	</table>
+                    
+                </td>            </tr>
+        </tbody>
+    </table>
 </div></div></div>
-			</div>
-		</div>
-				</div>
+            </div>
+        </div>
+                </div>
 
-	</div>
+    </div>
 </div>
 <div class="wsite-section-wrap">
-	<div class="wsite-section wsite-body-section wsite-section-bg-color wsite-section-effect-reveal wsite-background-19 wsite-custom-background" style="height: auto;background-color: #020202;background-image: none;" >
-		<div class="wsite-section-content">
-					<div class="container">
-			<div class="wsite-section-elements">
+    <div class="wsite-section wsite-body-section wsite-section-bg-color wsite-section-effect-reveal wsite-background-19 wsite-custom-background" style="height: auto;background-color: #020202;background-image: none;" >
+        <div class="wsite-section-content">
+                    <div class="container">
+            <div class="wsite-section-elements">
+                
+            </div>
+        </div>
+                </div>
 
-			</div>
-		</div>
-				</div>
-
-	</div>
+    </div>
 </div>
 <div class="wsite-section-wrap">
-	<div class="wsite-section wsite-body-section wsite-section-bg-color wsite-section-effect-reveal wsite-background-18 wsite-custom-background" style="height: auto;background-color: #ffffff;background-image: none;" >
-		<div class="wsite-section-content">
-					<div class="container">
-			<div class="wsite-section-elements">
-				<h2 class="wsite-content-title" style="text-align:center;"><strong><font color="#2a2a2a">WHERE ARE WE LOCATED?</font></strong></h2>
+    <div class="wsite-section wsite-body-section wsite-section-bg-color wsite-section-effect-reveal wsite-background-18 wsite-custom-background" style="height: auto;background-color: #ffffff;background-image: none;" >
+        <div class="wsite-section-content">
+                    <div class="container">
+            <div class="wsite-section-elements">
+                <h2 class="wsite-content-title" style="text-align:center;"><strong><font color="#2a2a2a">WHERE ARE WE LOCATED?</font></strong></h2>
 
 <div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-	<table class="wsite-multicol-table">
-		<tbody class="wsite-multicol-tbody">
-			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:7.2133245696578%; padding:0 15px;">
-
-
-
-<div class="wsite-spacer" style="height:50px;"></div>
-
-
-
-				</td>				<td class="wsite-multicol-col" style="width:88.044991070823%; padding:0 15px;">
-
-
-
-<div class="wsite-map"><iframe allowtransparency="true" frameborder="0" scrolling="no"
-
-
-
-				</td>				<td class="wsite-multicol-col" style="width:4.7416843595188%; padding:0 15px;">
-
-
+    <table class="wsite-multicol-table">
+        <tbody class="wsite-multicol-tbody">
+            <tr class="wsite-multicol-tr">
+                <td class="wsite-multicol-col" style="width:7.2133245696578%; padding:0 15px;">
+                    
+                        
 
 <div class="wsite-spacer" style="height:50px;"></div>
 
 
+                    
+                </td>                <td class="wsite-multicol-col" style="width:88.044991070823%; padding:0 15px;">
+                    
+                        
 
-				</td>			</tr>
-		</tbody>
-	</table>
+<div class="wsite-map"><iframe allowtransparency="true" frameborder="0" scrolling="no" style="width: 100%; height: 250px; margin-top: 10px; margin-bottom: 10px;" src="https://www.weebly.com/weebly/apps/generateMap.php?map=google&elementid=444559156707439450&ineditor=0&control=0&width=350px&height=250px&overviewmap=0&scalecontrol=0&typecontrol=0&zoom=11&long=-74.6166192&lat=39.3822537&domain=www&point=1&align=2&reseller=false"></iframe></div>
+
+
+                    
+                </td>                <td class="wsite-multicol-col" style="width:4.7416843595188%; padding:0 15px;">
+                    
+                        
+
+<div class="wsite-spacer" style="height:50px;"></div>
+
+
+                    
+                </td>            </tr>
+        </tbody>
+    </table>
 </div></div></div>
 
 <div class="wsite-spacer" style="height:23px;"></div>
@@ -311,119 +314,119 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 <div class="wsite-spacer" style="height:10px;"></div>
 
 <h2 class="wsite-content-title"><strong><font size="4">direct website inquires to ryan ho.<br />interested in joining our team? contact shaoxuan.</font></strong></h2>
-			</div>
-		</div>
-				</div>
+            </div>
+        </div>
+                </div>
 
-	</div>
+    </div>
 </div>
 <div class="wsite-section-wrap">
-	<div class="wsite-section wsite-body-section wsite-section-bg-color wsite-background-23 wsite-custom-background" style="height: auto;vertical-align: middle;background-color: #020202;background-image: none;is_customized: 1;" >
-		<div class="wsite-section-content">
-					<div class="container">
-			<div class="wsite-section-elements">
-				<div class="wsite-spacer" style="height:39px;"></div>
+    <div class="wsite-section wsite-body-section wsite-section-bg-color wsite-background-23 wsite-custom-background" style="height: auto;vertical-align: middle;background-color: #020202;background-image: none;is_customized: 1;" >
+        <div class="wsite-section-content">
+                    <div class="container">
+            <div class="wsite-section-elements">
+                <div class="wsite-spacer" style="height:39px;"></div>
 
 <div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-	<table class="wsite-multicol-table">
-		<tbody class="wsite-multicol-tbody">
-			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:22.256818432316%; padding:0 15px;">
-
-
+    <table class="wsite-multicol-table">
+        <tbody class="wsite-multicol-tbody">
+            <tr class="wsite-multicol-tr">
+                <td class="wsite-multicol-col" style="width:22.256818432316%; padding:0 15px;">
+                    
+                        
 
 <h2 class="wsite-content-title" style="text-align:center;"><font color="#ffffff"><font size="2"><a href="">home</a></font></font></h2>
 
 
-
-				</td>				<td class="wsite-multicol-col" style="width:12.317461024078%; padding:0 15px;">
-
-
+                    
+                </td>                <td class="wsite-multicol-col" style="width:12.317461024078%; padding:0 15px;">
+                    
+                        
 
 <h2 class="wsite-content-title" style="text-align:center;"><font color="#ffffff" size="2"><a href="shop.html">sHOP</a></font></h2>
 
 
-
-				</td>				<td class="wsite-multicol-col" style="width:33.235907763244%; padding:0 15px;">
-
-
+                    
+                </td>                <td class="wsite-multicol-col" style="width:33.235907763244%; padding:0 15px;">
+                    
+                        
 
 <h2 class="wsite-content-title" style="text-align:center;"><font color="#d5d5d5" size="2"><a href="privacy.html">PRIVACY POLICY</a></font></h2>
 
 
-
-				</td>				<td class="wsite-multicol-col" style="width:11.686070646336%; padding:0 15px;">
-
-
+                    
+                </td>                <td class="wsite-multicol-col" style="width:11.686070646336%; padding:0 15px;">
+                    
+                        
 
 <div class="paragraph" style="text-align:center;"><font color="#d5d5d5"><a href="admin.html">ADMIN</a></font></div>
 
 
-
-				</td>				<td class="wsite-multicol-col" style="width:20.503742134026%; padding:0 15px;">
-
-
+                    
+                </td>                <td class="wsite-multicol-col" style="width:20.503742134026%; padding:0 15px;">
+                    
+                        
 
 <h2 class="wsite-content-title" style="text-align:center;"><font color="#ffffff"><font size="2"><a href="who-are-we.html">contact</a></font></font></h2>
 
 
-
-				</td>			</tr>
-		</tbody>
-	</table>
+                    
+                </td>            </tr>
+        </tbody>
+    </table>
 </div></div></div>
 
 <div class="wsite-spacer" style="height:10px;"></div>
 
 <div class="paragraph" style="text-align:center;">&#8203;<span style="color:rgba(255, 255, 255, 0.5)">&copy; 2019 Ryan Ho</span></div>
-			</div>
-		</div>
-				</div>
+            </div>
+        </div>
+                </div>
 
-	</div>
+    </div>
 </div>
 
 </div>
 
-			</div>
-		</div>
-		<div id="footer">
+            </div>
+        </div>
+        <div id="footer">
+        
+        </div>
+    </div>
 
-		</div>
-	</div>
-
-	<div class="navmobile-wrapper">
-		<div id="navmobile" class="nav"><ul class="wsite-menu-default">
-		<li id="pg630255606343551380" class="wsite-menu-item-wrap">
-			<a
-						href="index.html"
-				class="wsite-menu-item"
-				>
-				Home
-			</a>
-
-		</li>
-		<li id="pg794635311847983957" class="wsite-menu-item-wrap">
-			<a
-						href="shop.html"
-				class="wsite-menu-item"
-				>
-				Shop
-			</a>
-
-		</li>
-		<li id="active" class="wsite-menu-item-wrap">
-			<a
-						href="who-are-we.html"
-				class="wsite-menu-item"
-				>
-				Who are we?
-			</a>
-
-		</li>
+    <div class="navmobile-wrapper">
+        <div id="navmobile" class="nav"><ul class="wsite-menu-default">
+        <li id="pg630255606343551380" class="wsite-menu-item-wrap">
+            <a
+                        href="index.html"
+                class="wsite-menu-item"
+                >
+                Home
+            </a>
+            
+        </li>
+        <li id="pg794635311847983957" class="wsite-menu-item-wrap">
+            <a
+                        href="shop.html"
+                class="wsite-menu-item"
+                >
+                Shop
+            </a>
+            
+        </li>
+        <li id="active" class="wsite-menu-item-wrap">
+            <a
+                        href="who-are-we.html"
+                class="wsite-menu-item"
+                >
+                Who are we?
+            </a>
+            
+        </li>
 </ul>
 </div>
-	</div>
+    </div>
 
 </div>
 
@@ -435,6 +438,6 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
     <div id="customer-accounts-app"></div>
     <script src="https://cdn2.editmysite.com/js/site/main-customer-accounts-site.js?buildTime=1234"></script>
 
-
-	</body>
+        
+    </body>
 </html>
