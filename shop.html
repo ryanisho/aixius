@@ -237,11 +237,11 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
                                   <label class="wsite-form-label">Name <span class="form-required">*</span></label>
                                   <div style="clear:both;"></div>
                                   <div class="wsite-form-input-container wsite-form-left wsite-form-input-first-name">
-                                      <input aria-required="true" id="input-974897926496949995" class="wsite-form-input wsite-input" placeholder="First" type="text" name="_u974897926496949995[first]" />
+                                      <input aria-required="true" id="input-974897926496949995" class="wsite-form-input wsite-input" placeholder="First" type="text" name="First_Name" />
                                       <label class="wsite-form-sublabel" for="input-974897926496949995">First</label>
                                   </div>
                                   <div class="wsite-form-input-container wsite-form-right wsite-form-input-last-name">
-                                      <input aria-required="true" id="input-974897926496949995-1" class="wsite-form-input wsite-input" placeholder="Last" type="text" name="_u974897926496949995[last]" />
+                                      <input aria-required="true" id="input-974897926496949995-1" class="wsite-form-input wsite-input" placeholder="Last" type="text" name="Last_Name" />
                                       <label class="wsite-form-sublabel" for="input-974897926496949995-1">Last</label>
                                   </div>
                                   <div id="instructions-974897926496949995" class="wsite-form-instructions" style="display:none;"></div>
@@ -252,7 +252,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
                                   <label class="wsite-form-label" for="input-683102113253730155">PHONE NUMBER <span class="form-required">*</span></label>
                                   <div style="clear:both;"></div>
                                   <div class="wsite-form-input-container wsite-form-left" style="margin-bottom:5px;">
-                                      <input aria-required="true" id="input-683102113253730155" class="wsite-form-input wsite-input" type="text" name="_u683102113253730155[number]" />
+                                      <input aria-required="true" id="input-683102113253730155" class="wsite-form-input wsite-input" type="text" name="Phone_Number" />
                                   </div>
                                   <div id="instructions-683102113253730155" class="wsite-form-instructions" style="display:none;"></div>
                               </div>
@@ -261,7 +261,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
                   <div><div class="wsite-form-field" style="margin:5px 0px 5px 0px;">
                                   <label class="wsite-form-label" for="input-221577062581891733">E-MAIL <span class="form-required">*</span></label>
                                   <div class="wsite-form-input-container">
-                                      <input aria-required="true" id="input-221577062581891733" class="wsite-form-input wsite-input wsite-input-width-370px" type="text" name="_u221577062581891733" />
+                                      <input aria-required="true" id="input-221577062581891733" class="wsite-form-input wsite-input wsite-input-width-370px" type="text" name="E-Mail" />
                                   </div>
                                   <div id="instructions-221577062581891733" class="wsite-form-instructions" style="display:none;"></div>
                               </div></div>
@@ -269,7 +269,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
                   <div><div class="wsite-form-field" style="margin:5px 0px 5px 0px;">
                                   <label class="wsite-form-label" for="input-235058199492689940">DEVICE MODEL <span class="form-required">*</span></label>
                                   <div class="wsite-form-input-container">
-                                      <textarea aria-required="true" id="input-235058199492689940" class="wsite-form-input wsite-input wsite-input-width-285px" name="_u235058199492689940" style="height: 50px"></textarea>
+                                      <textarea aria-required="true" id="input-235058199492689940" class="wsite-form-input wsite-input wsite-input-width-285px" name="Device_Model" style="height: 50px"></textarea>
                                   </div>
                                   <div id="instructions-235058199492689940" class="wsite-form-instructions" style="display:none;">Please include color, brand and issue</div>
                               </div></div>
@@ -277,14 +277,15 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
                   <div><div class="wsite-form-field" style="margin:5px 0px 5px 0px;">
                                   <label class="wsite-form-label" for="input-418942050339640478">DESCRIBE THE PROBLEM THROUGHLY <span class="form-required">*</span></label>
                                   <div class="wsite-form-input-container">
-                                      <textarea aria-required="true" id="input-418942050339640478" class="wsite-form-input wsite-input wsite-input-width-370px" name="_u418942050339640478" style="height: 200px"></textarea>
+                                      <textarea aria-required="true" id="input-418942050339640478" class="wsite-form-input wsite-input wsite-input-width-370px" name="Problem(s)" style="height: 200px"></textarea>
                                   </div>
                                   <div id="instructions-418942050339640478" class="wsite-form-instructions" style="display:none;">Provide ALL context leading up to the problem and what caused the problem to persist. ANY information provided is helpful.</div>
                               </div></div>
 
                   <!-- your other form fields go here -->
-
-                  <button type="submit">Send</button>
+                <style
+                  <button type="submit">Submit</button>
+                 </style>
                 </form>
                 
 </div>
@@ -427,6 +428,5 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
     <div id="customer-accounts-app"></div>
     <script src="https://cdn2.editmysite.com/js/site/main-customer-accounts-site.js?buildTime=1234"></script>
 
-		
 	</body>
 </html>
